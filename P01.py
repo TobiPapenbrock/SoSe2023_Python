@@ -1,11 +1,15 @@
+import random
 # Initialisierung
-geheimzahl  = 4712
+geheimzahl  = random.randint(0,199)
 eingabe     = 0
 zaehler     = 0
+max_versuche= 5 
 
+print(geheimzahl)
 # Schleifenkopf und Schleifenkoerper
-while eingabe != geheimzahl:
+while eingabe != geheimzahl and max_versuche >zaehler:
     eingabe = int(input("Ganze Zahl eingeben: "))
+
 
     if eingabe < geheimzahl:
         print("Zahl zu klein")
@@ -15,4 +19,8 @@ while eingabe != geheimzahl:
 
     zaehler = zaehler +1
 
-print ("Richtig! Sie haben", zaehler, "Versuche benötigt.")
+
+if eingabe!=geheimzahl:
+    print("Falsch du Idiot!")
+else:
+    print ("Richtig! Sie haben", zaehler, "Versuche benötigt.")
