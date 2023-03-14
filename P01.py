@@ -1,9 +1,12 @@
 import random
+
 # Initialisierung
-geheimzahl  = random.randint(0,199)
+geheimzahl  = \
+    random.randint(0,
+                    100)
 eingabe     = 0
 zaehler     = 0
-max_versuche= 5 
+max_versuche= 5
 
 print(geheimzahl)
 # Schleifenkopf und Schleifenkoerper
