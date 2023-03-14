@@ -27,3 +27,4 @@ if eingabe!=geheimzahl:
     print("Falsch du Idiot!")
 else:
     print ("Richtig! Sie haben", zaehler, "Versuche benötigt.")
+    
