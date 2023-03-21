@@ -49,8 +49,13 @@ einkaufsliste2 = einkaufsliste.copy
 # 14. Geben Sie die Einträge der einkaufsliste der Reihe nach aus (angefangen vom Element mit dem Index 0 bis zum letzten Element) 
 # und entfernen Sie dabei das jeweils ausgegebene Element aus der Liste.
 
-while einkaufsliste: 
-    print(einkaufsliste.pop(0), "wird entfernt")
+#while einkaufsliste: 
+#    print(einkaufsliste.pop(0), "wird entfernt")
     
 
+print(einkaufsliste)
+
+# 16. Entfernen Sie das erste in einkaufsliste2 auftretende Element mit dem Inhalt "Birnen" aus der Liste. 
+# (Ergebnis: ['Äpfel', 'Orangen', 'Bananen', 'Studentenfutter'])
+einkaufsliste.remove("Bananen")
 print(einkaufsliste)
