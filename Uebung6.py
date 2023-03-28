@@ -28,3 +28,13 @@ print(kugeln_in_ablage)
 print("")
 print(kugeln_in_trommel)
 
+# 4. Im August 2017 finden insgesamt vier Ziehungen statt. Die Ziehungsdaten stehen in einem Tupel zur Verfügung:
+history_ziehungen_erste_zahl = {"2017-Aug-05": 3,
+                                "2017-Aug-12": 49,
+                                "2017-Aug-19": 13}
+
+history_ziehungen_alle_zahlen = {"2017-Aug-05": (4,3,5,6,7, 31,),
+                                "2017-Aug-12": (1,2,3,4,5,6),
+                                "2017-Aug-19": (21, 40, 1, 12, 33, 25)}
+
+print("Was waren alle Zahlen am 12.8.2017? ", history_ziehungen_alle_zahlen["2017-Aug-12"])
