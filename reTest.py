@@ -25,8 +25,3 @@ matchi = re.search(r"(\d*)(.)(\d*)", test2)
 print(matchi.group(1))
 print(matchi.group(2))
 print(matchi.group(3))
-
-
-
-
-
